@@ -4,9 +4,9 @@ body
 header
     h1
         text-align: center
-        font-size: 50px
+        font-size: 80px
         font-weight: bolder
-        margin: 80px 0px
+        margin: 100px 0px
 
 nav
     ul
@@ -15,11 +15,15 @@ nav
         justify-content: center
         align-items: center
         text-transform: uppercase
+        font-size: 18px
+
         li
-            margin: 0px 40px
-            a
+            margin: 0px 60px
+            text-decoration: none
+            .lien
+                color: gray
                 text-decoration: none
-                color: black
+
         .dernierLi
             display: flex
             justify-content: center
@@ -27,8 +31,8 @@ nav
             button
                 &:first-child,&:nth-child(2)
                     border: #717b83 solid 1px
-                    height: 20px
-                    width: 20px
+                    height: 25px
+                    width: 25px
                     margin: 0px 3px
                     border-radius: 5px
                     outline: none
@@ -48,10 +52,6 @@ nav
 
 .PopUp
     position: fixed
-    top: 0
-    left: 0
-    right: 0
-    bottom: 0
     display: flex
     align-items: center
     justify-content: center
@@ -59,13 +59,47 @@ nav
     visibility: hidden
     opacity: 0
     transition: all 0.35s ease-in
-    width: 700px
-    text-align: center
+    left: 0
+    right: 0
+    top: 0
+    down: 0
 
 .PopUpContenu
     position: relative
     border-radius: 10px
     background: white
+    color: black
+    padding: 200px 100px
+    border: solid 2px whitesmoke
+    font-family: 'Poppins', sans-serif
+
+    button
+        height: 80px
+        width: 200px
+        font-size: 25px
+        margin: 100px auto
+        outline: none
+        border-radius: 40px
+        border: none
+
+    p
+        margin-top: 50px
+        font-size: 40px
+
+    h3
+        font-size: 60px
+    input
+        width: 100%
+        height: 70px
+        outline: none
+        border: none
+        border-bottom: solid whitesmoke 2px
+        border-left: solid whitesmoke 2px
+        padding-left: 10px 
+
+.assombrir
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) )
+
 
 .PopUpVisible
     visibility: visible
@@ -74,3 +108,5 @@ nav
 .close
     max-width: max-content
     outline: none
+    right: 0
+    top: 0

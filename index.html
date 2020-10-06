@@ -24,12 +24,12 @@
     <nav>
 
         <ul>
-            <li><a href="">Home</a> </li>
-            <li><a href="">Product</a> </li>
-            <li><a href="">Blog</a> </li>
-            <li><a href="">Elements</a> </li>
-            <li><a href="">About</a> </li>
-            <li><a href="">Contact</a> </li>
+            <li><a class="lien" href="">Home</a> </li>
+            <li><a class="lien" href="">Product</a> </li>
+            <li><a class="lien" href="">Blog</a> </li>
+            <li><a class="lien" href="">Elements</a> </li>
+            <li><a class="lien" href="">About</a> </li>
+            <li><a class="lien" href="">Contact</a> </li>
 
             <li class="dernierLi">
                 <button class="modeClair"></button>
@@ -43,20 +43,30 @@
         <div id="myPopUp" class="PopUp">
 
             <div class="PopUpContenu">
-                <button class="close">&times;</button>
+
+                <button class="close">
+                    &times;
+                </button>
+
                 <h3>Se connecter à emporium.</h3>
+
                 <div>
                     <p>Nom d'utilisateur ou email</p>
                     <input type="text">
                 </div>
+
                 <div>
                     <p>Mot de passe</p>
                     <input type="text">
                 </div>
-                <button>Se connecter</button>
+
+                <div class="d-flex">
+                    <button class="bg-info">Se connecter</button>
+                    <button class="bg-info">S'inscrire</button>
+                </div>
+                
                 <div>
-                    <a href="">mot de passe oublié ?</a> -
-                    <a href="">S'inscrire sur emporium</a>
+                    
 
                 </div>
             </div>
@@ -64,6 +74,7 @@
         </div>
 
     </nav>
+
 
     <!-- 1ere Section -->
 

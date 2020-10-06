@@ -9905,3 +9905,32 @@ section:nth-child(4) div .myBorder {
   height: 250px;
   margin-bottom: 15px;
 }
+
+section:nth-child(6) {
+  height: 750px;
+  background-position: center;
+  margin: 120px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section:nth-child(6) div {
+  text-align: center;
+}
+
+section:nth-child(6) div h3 {
+  color: white;
+  font-size: 58px;
+}
+
+section:nth-child(6) div button {
+  background-color: #dd4545;
+  outline: none;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+}

@@ -11,7 +11,6 @@ modeJour.addEventListener('click',()=>{
 
 modeNuit.addEventListener('click',()=>{
     myBody.style = 'background-color: black; color: white'
-    console.log('oui')
 })
 
 
@@ -24,6 +23,12 @@ let fermer = document.querySelector('.close')
 
 myConnect.addEventListener('click',()=>{
     modal.classList.add('PopUpVisible')
+    if (myBody.style == "background-color: black; color: white") {
+        modal.style = 'color: black'
+    } else {
+        modal.style = 'color: white'
+
+    }
 })
 
 fermer.addEventListener('click',()=>{

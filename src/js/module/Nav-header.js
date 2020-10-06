@@ -23,6 +23,7 @@ let fermer = document.querySelector('.close')
 
 myConnect.addEventListener('click',()=>{
     modal.classList.add('PopUpVisible')
+    myBody.classList.add('assombrir')
 })
 
 fermer.addEventListener('click',()=>{

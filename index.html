@@ -24,19 +24,44 @@
     <nav>
 
         <ul>
-            <li>Home</li>
-            <li>Product</li>
-            <li>Blog</li>
-            <li>Elements</li>
-            <li>About</li>
-            <li>Contact</li>
+            <li><a href="">Home</a> </li>
+            <li><a href="">Product</a> </li>
+            <li><a href="">Blog</a> </li>
+            <li><a href="">Elements</a> </li>
+            <li><a href="">About</a> </li>
+            <li><a href="">Contact</a> </li>
 
-            <li id="connect" class="d-flex">
-                <div class="modeClair"></div>
-                <div class="modeSombre"></div>
-                <span>Connexion</span>
+            <li class="dernierLi">
+                <button class="modeClair"></button>
+                <button class="modeSombre"></button>
+                <button id="connection">Connexion</button>
             </li>
         </ul>
+
+        <!-- Pop Up Connection -->
+
+        <div id="myPopUp" class="PopUp">
+
+            <div class="PopUpContenu">
+                <button class="close">&times;</button>
+                <h3>Se connecter à emporium.</h3>
+                <div>
+                    <p>Nom d'utilisateur ou email</p>
+                    <input type="text">
+                </div>
+                <div>
+                    <p>Mot de passe</p>
+                    <input type="text">
+                </div>
+                <button>Se connecter</button>
+                <div>
+                    <a href="">mot de passe oublié ?</a> -
+                    <a href="">S'inscrire sur emporium</a>
+
+                </div>
+            </div>
+
+        </div>
 
     </nav>
 
@@ -63,7 +88,7 @@
 
     <!-- Script -->
 
-    <script src="./src/js/main.js"></script>
+    <script type="module" src="./src/js/main.js"></script>
     <script src="./node_modules/jquery/dist/jquery.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>

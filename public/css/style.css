@@ -9648,6 +9648,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 body {
   font-family: 'Poppins', sans-serif;
+  margin: 0px;
 }
 
 header h1 {
@@ -9655,6 +9656,13 @@ header h1 {
   font-size: 50px;
   font-weight: bolder;
   margin: 70px 0px;
+}
+
+nav {
+  top: 0px;
+  height: 40px;
+  position: sticky;
+  background-color: white;
 }
 
 nav ul {
@@ -9933,4 +9941,69 @@ section:nth-child(6) div button {
   border: none;
   padding: 10px 15px;
   border-radius: 5px;
+}
+
+section:nth-child(8) .coter {
+  background-color: #f3f3f3;
+  color: black;
+}
+
+section:nth-child(8) .coter button {
+  background-color: #383E44;
+  color: white;
+}
+
+section:nth-child(8) .coter p {
+  color: grey;
+}
+
+section:nth-child(8) .milieu {
+  background-color: #dd4545;
+  color: white;
+}
+
+section:nth-child(8) .row {
+  margin: 50px 0px;
+}
+
+section:nth-child(8) .row .col {
+  display: inline;
+  justify-content: space-around;
+  text-align: center;
+  margin: 0px 15px;
+  padding: 0px;
+  width: 80%;
+}
+
+section:nth-child(8) .row .col i {
+  padding: 70px 0px 25px 0px;
+  font-size: 30px;
+}
+
+section:nth-child(8) .row .col h4 {
+  font-size: 15px;
+  text-transform: uppercase;
+  padding: 15px 0px;
+  font-weight: bolder;
+}
+
+section:nth-child(8) .row .col p {
+  padding: 30px 0px;
+  font-weight: lighter;
+  font-size: 13px;
+  width: 75%;
+  text-align: center;
+  margin: auto;
+}
+
+section:nth-child(8) .row .col button {
+  text-align: center;
+  font-size: 15px;
+  padding: 5px 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  margin: 2px 0px;
+  margin-bottom: 50px;
 }

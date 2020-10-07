@@ -13,7 +13,8 @@ modeNuit.addEventListener('click',()=>{
     myBody.style = 'background-color: black; color: white'
 })
 
-
+let myImage =document.querySelectorAll('.col-3 > img')
+console.log(myImage);
 // Bouton connexion
 
 let myConnect = document.querySelector('#connection')

@@ -3,8 +3,17 @@ section
 
         .row
             margin-top: 90px
-            
+
+            @media (min-width: 768px) and ( max-width: 1366px)
+                max-width: max-content
             .secti
+                @media (min-width: 346px) and ( max-width: 645px)
+                    padding: 0px
+                @media (min-width: 768px) and ( max-width: 1366px)
+                    padding: 0px
+                    
+                    max-width: max-content
+
                 div
                     height: 280px
                     background-repeat: no-repeat
@@ -12,8 +21,10 @@ section
                     background-position: center
 
                     @media (min-width: 346px) and ( max-width: 645px)
-                        height: 200px       
+                        height: 200px
                         margin-top: 10px
+                    @media (min-width: 768px) and ( max-width: 1366px)
+                        width: 760px
             h2
                 color: white
                 text-align: center

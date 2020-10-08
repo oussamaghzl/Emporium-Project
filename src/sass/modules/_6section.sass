@@ -17,16 +17,19 @@ section
             margin: 50px 0px
             flex-wrap: nowrap
             overflow-x: hidden
-            
+
             @media (min-width: 346px) and ( max-width: 645px)
                 flex-wrap: wrap
-
+            @media (min-width: 768px) and ( max-width: 1366px)
+                flex-wrap: wrap
             .col-12
                 display: inline
                 justify-content: space-around
                 text-align: center
                 margin: 0px 5px
                 padding: 0px
+                @media (min-width: 346px) and ( max-width: 645px)
+                    margin: 0px
 
                 i
                     padding: 50px 0px 25px 0px

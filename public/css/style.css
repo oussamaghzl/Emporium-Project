@@ -9682,6 +9682,14 @@ nav ul {
   }
 }
 
+@media (min-width: 768px) and (max-width: 1366px) {
+  nav ul {
+    font-size: 10px;
+    padding: 0px;
+    width: 100%;
+  }
+}
+
 nav ul li {
   margin: 0px 30px;
   text-decoration: none;
@@ -9721,6 +9729,12 @@ nav ul .dernierLi button:first-child, nav ul .dernierLi button:nth-child(2) {
   }
 }
 
+@media (min-width: 768px) and (max-width: 1366px) {
+  nav ul .dernierLi button:first-child, nav ul .dernierLi button:nth-child(2) {
+    margin: 0px;
+  }
+}
+
 nav ul .dernierLi .modeClair {
   background-color: white;
 }
@@ -9757,6 +9771,19 @@ nav ul .dernierLi button:nth-child(3) {
   right: 0;
   top: 0;
   bottom: 0;
+  overflow-x: hidden;
+}
+
+@media (min-width: 346px) and (max-width: 645px) {
+  .PopUp {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1366px) {
+  .PopUp {
+    width: 100%;
+  }
 }
 
 .PopUpContenu {
@@ -9848,6 +9875,10 @@ nav ul .dernierLi button:nth-child(3) {
   opacity: 1;
 }
 
+#myPopUpInscription {
+  overflow-x: hidden;
+}
+
 #myPopUpInscription input {
   height: 50px;
 }
@@ -9888,6 +9919,12 @@ section:nth-child(3) .row .gauche h2 {
   }
 }
 
+@media (min-width: 768px) and (max-width: 1366px) {
+  section:nth-child(3) .row .gauche h2 {
+    font-size: 30px;
+  }
+}
+
 section:nth-child(3) .row .gauche p {
   color: gray;
   font-size: 16px;
@@ -9900,6 +9937,12 @@ section:nth-child(3) .row .gauche p {
   }
 }
 
+@media (min-width: 768px) and (max-width: 1366px) {
+  section:nth-child(3) .row .gauche p {
+    font-size: 14px;
+  }
+}
+
 section:nth-child(3) .row .gauche img {
   height: 100px;
 }
@@ -9907,6 +9950,12 @@ section:nth-child(3) .row .gauche img {
 @media (min-width: 346px) and (max-width: 645px) {
   section:nth-child(3) .row .gauche img {
     height: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1366px) {
+  section:nth-child(3) .row .gauche img {
+    height: 60px;
   }
 }
 
@@ -9930,6 +9979,14 @@ section:nth-child(3) .row .gauche button {
   }
 }
 
+@media (min-width: 768px) and (max-width: 1366px) {
+  section:nth-child(3) .row .gauche button {
+    padding: 10px 20px;
+    font-size: 10px;
+    margin-top: 10px;
+  }
+}
+
 section:nth-child(3) .row .droite img {
   height: 600px;
 }
@@ -9940,8 +9997,33 @@ section:nth-child(3) .row .droite img {
   }
 }
 
+@media (min-width: 768px) and (max-width: 1366px) {
+  section:nth-child(3) .row .droite img {
+    height: 300px;
+  }
+}
+
 section:nth-child(4) .row {
   margin-top: 90px;
+}
+
+@media (min-width: 768px) and (max-width: 1366px) {
+  section:nth-child(4) .row {
+    max-width: max-content;
+  }
+}
+
+@media (min-width: 346px) and (max-width: 645px) {
+  section:nth-child(4) .row .secti {
+    padding: 0px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1366px) {
+  section:nth-child(4) .row .secti {
+    padding: 0px;
+    max-width: max-content;
+  }
 }
 
 section:nth-child(4) .row .secti div {
@@ -9955,6 +10037,12 @@ section:nth-child(4) .row .secti div {
   section:nth-child(4) .row .secti div {
     height: 200px;
     margin-top: 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1366px) {
+  section:nth-child(4) .row .secti div {
+    width: 760px;
   }
 }
 
@@ -10114,12 +10202,18 @@ section:nth-child(7) .center .wrapper {
   display: flex;
   grid-gap: 1em;
   overflow: hidden;
-  width: 70.5em;
+  width: 72em;
 }
 
 @media (min-width: 320px) and (max-width: 645px) {
   section:nth-child(7) .center .wrapper {
-    width: 20.9em;
+    width: 21em;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1366px) {
+  section:nth-child(7) .center .wrapper {
+    width: 40em;
   }
 }
 
@@ -10132,7 +10226,7 @@ section:nth-child(7) .center .wrapper .inner {
 section:nth-child(7) .center .wrapper .inner .card {
   border-radius: 0.5em;
   margin: 5px;
-  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+  border: none;
 }
 
 section:nth-child(7) .center .wrapper .inner .card img {
@@ -10148,6 +10242,12 @@ section:nth-child(7) .center .wrapper .inner .card img {
   }
 }
 
+@media (min-width: 768px) and (max-width: 1366px) {
+  section:nth-child(7) .center .wrapper .inner .card img {
+    width: 15em;
+  }
+}
+
 section:nth-child(7) .center .wrapper .inner .card .content {
   border-bottom-left-radius: inherit;
   border-bottom-right-radius: inherit;
@@ -10155,16 +10255,54 @@ section:nth-child(7) .center .wrapper .inner .card .content {
   text-align: center;
 }
 
-section:nth-child(7) .center .wrapper .inner .card div h1 {
-  margin: 0.35em 0;
-  font-size: 1.25rem;
-  line-height: 1;
+section:nth-child(7) .center .wrapper .inner .card div #style_p {
+  max-width: max-content;
+  padding: 15px;
+  font-size: 15px;
+  border-radius: 100%;
+  background-color: #DD4545;
+  color: white;
+  text-transform: uppercase;
+  margin: auto;
 }
 
-section:nth-child(7) .center .wrapper .inner .card div h3 {
+@media (min-width: 320px) and (max-width: 645px) {
+  section:nth-child(7) .center .wrapper .inner .card div #style_p {
+    font-size: 8px;
+    padding: 8px;
+  }
+}
+
+section:nth-child(7) .center .wrapper .inner .card div h1 {
   margin: 0.35em 0;
-  font-size: 1.25rem;
+  font-size: 15px;
+  font-weight: bolder;
   line-height: 1;
+  color: black;
+}
+
+@media (min-width: 320px) and (max-width: 645px) {
+  section:nth-child(7) .center .wrapper .inner .card div h1 {
+    font-size: 10px;
+    margin: 0px;
+  }
+}
+
+section:nth-child(7) .center .wrapper .inner .card div p {
+  margin: 0.35em 0;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  line-height: 1;
+  color: #DD4545;
+  font-weight: bolder;
+}
+
+@media (min-width: 320px) and (max-width: 645px) {
+  section:nth-child(7) .center .wrapper .inner .card div p {
+    font-size: 8px;
+    flex-wrap: wrap;
+  }
 }
 
 section:nth-child(7) .center .map {
@@ -10227,12 +10365,24 @@ section:nth-child(8) .row {
   }
 }
 
+@media (min-width: 768px) and (max-width: 1366px) {
+  section:nth-child(8) .row {
+    flex-wrap: wrap;
+  }
+}
+
 section:nth-child(8) .row .col-12 {
   display: inline;
   justify-content: space-around;
   text-align: center;
   margin: 0px 5px;
   padding: 0px;
+}
+
+@media (min-width: 346px) and (max-width: 645px) {
+  section:nth-child(8) .row .col-12 {
+    margin: 0px;
+  }
 }
 
 section:nth-child(8) .row .col-12 i {

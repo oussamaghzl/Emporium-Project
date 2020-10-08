@@ -1,5 +1,5 @@
 let myBody = document.querySelector('body')
-
+let myNav = document.querySelector('nav')
 // Mode Sombre et mode clair
 
 let modeJour = document.querySelector('.modeClair')
@@ -7,10 +7,13 @@ let modeNuit = document.querySelector('.modeSombre')
 
 modeJour.addEventListener('click',()=>{
     myBody.style = 'background-color: white'
+    myNav.style = ''
 })
 
 modeNuit.addEventListener('click',()=>{
     myBody.style = 'background-color: black; color: white'
+    myNav.style = 'background-color: black; color: grey'
+
 })
 
 let myImage =document.querySelectorAll('.col-3 > img')

@@ -9659,11 +9659,11 @@ header h1 {
 }
 
 nav {
-  top: 0px;
   height: 40px;
-  position: sticky;
   background-color: white;
-  z-index: 1000;
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
 
 nav ul {
@@ -9771,7 +9771,7 @@ nav ul .dernierLi button:nth-child(3) {
   right: 0;
   top: 0;
   bottom: 0;
-  overflow-x: hidden;
+  z-index: 1000;
 }
 
 @media (min-width: 346px) and (max-width: 645px) {

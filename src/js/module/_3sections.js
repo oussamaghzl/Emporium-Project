@@ -1,6 +1,7 @@
 let myImage = document.getElementsByClassName('a-img-section')
 
 let myArray = Array.from(myImage);
+
  
 
 myArray.forEach(element => {

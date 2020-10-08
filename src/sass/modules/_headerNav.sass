@@ -10,11 +10,11 @@ header
         margin: 70px 0px
 
 nav
-    top: 0px
     height: 40px
-    position: sticky
     background-color: white
-    z-index: 1000
+    position: sticky
+    top: 0
+    z-index: 999
     
     ul
         list-style: none
@@ -92,7 +92,7 @@ nav
     right: 0
     top: 0
     bottom: 0
-    overflow-x: hidden
+    z-index: 1000
     @media (min-width: 346px) and ( max-width: 645px)
         width: 100%
     @media (min-width: 768px) and ( max-width: 1366px)
@@ -107,6 +107,7 @@ nav
     border: solid 2px black
     font-family: 'Poppins', sans-serif
     width: 500px
+
     @media (min-width: 346px) and ( max-width: 645px)
         width: 250px
         padding: 50px 10px
@@ -115,6 +116,7 @@ nav
         color: black
         font-size: 30px
         outline: none
+
     .bg-info
         height: 50px
         width: 130px

@@ -6,23 +6,28 @@ section
             button
                 background-color: #383E44
                 color: white
-            p 
+            p
                 color: grey
 
         .milieu
-            background-color:  #dd4545
+            background-color: #dd4545
             color: white
 
         .row
             margin: 50px 0px
+            flex-wrap: nowrap
+            overflow-x: hidden
+            
+            @media (min-width: 346px) and ( max-width: 645px)
+                flex-wrap: wrap
 
-            .col
+            .col-12
                 display: inline
                 justify-content: space-around
                 text-align: center
-                margin: 0px 15px
+                margin: 0px 5px
                 padding: 0px
-                width: 80%
+
                 i
                     padding: 50px 0px 25px 0px
                     font-size: 30px
@@ -32,7 +37,6 @@ section
                     text-transform: uppercase
                     padding: 20px 0px
                     font-weight: bolder
-
 
                 p
                     padding: 25px 0px
@@ -52,8 +56,3 @@ section
                     text-transform: uppercase
                     margin: 2px 0px
                     margin-bottom: 50px
-                
-        
-
-    
-                

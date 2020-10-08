@@ -14,7 +14,6 @@ modeNuit.addEventListener('click',()=>{
 })
 
 let myImage =document.querySelectorAll('.col-3 > img')
-console.log(myImage);
 // Bouton connexion
 
 let myConnect = document.querySelector('#connection')

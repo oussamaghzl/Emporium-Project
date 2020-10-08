@@ -1,25 +1,33 @@
 section
     &:nth-child(3)
         margin-top: 10px
-        display: flex
         background-color: #f3f3f3
-        justify-content: center
-        align-items: center
-        height: 500px
-
-        div
-            &:first-child
-                width: 700px
+        .row
+            padding: 50px 0px
+            margin: auto
+            display: flex
+            justify-content: center
+            align-items: center
+            @media (min-width: 346px) and ( max-width: 645px)
+                text-align: center
+            .gauche
                 h2
                     color: #dd4545
-                    font-size: 50px
+                    font-size: 60px
+                    @media (min-width: 346px) and ( max-width: 645px)
+                        font-size: 20px
                 p
                     color: gray
-                    font-size: 18px
+                    font-size: 16px
+                    padding: 10px 0px
+                    @media (min-width: 346px) and ( max-width: 645px)
+                        font-size: 10px
 
                 img
-                    height: 90px
-                    
+                    height: 100px
+                    @media (min-width: 346px) and ( max-width: 645px)
+                        height: 20px
+
                 button
                     background-color: #dd4545
                     outline: none
@@ -30,8 +38,14 @@ section
                     text-transform: uppercase
                     font-size: 15px
                     margin-top: 40px
+                    @media (min-width: 346px) and ( max-width: 645px)
+                        padding: 10px 20px
+                        font-size: 10px
+                        margin-top: 10px
 
-        div
-            &:nth-child(2)
+            .droite
+
                 img
-                    height: 500px
+                    height: 600px
+                    @media (min-width: 346px) and ( max-width: 645px)
+                        height: 200px
